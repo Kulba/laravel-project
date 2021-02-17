@@ -21,6 +21,14 @@
         </style>
     </head>
     <body class="antialiased">
+    <!--[if lte IE 10]>
+    <div>
+        Вы испольузете устаревшую версию браузера. Установите современный браузер
+        <a href="http://www.firefox.com">Firefox</a>,
+        <a href="http://www.google.com/chrome/">Chrome</a>,
+        <a href="http://www.opera.com">Opera</a> или <a href="https://www.microsoft.com/ru-ru/edge">Microsoft Edge</a>.
+    </div>
+    <![endif]-->
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
